@@ -1,0 +1,26 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Michael Fang"
+  navbar:
+    left:
+      - href: index.qmd
+        text: About Me
+      - text: Resume
+        file: Resume1 -updated.pdf
+    page-footer:
+      right:
+        - icon: github
+      border: true
+      background: "light"
+     
+format:
+  html:
+    theme: blue
+    css: styles.css
+    toc: true
+
+editor: visual
+
